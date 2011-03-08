@@ -7,4 +7,4 @@ unless File.exist?(vkontakte_config)
 end
 
 #Copy xd_receiver
-FileUtils.copy(File.dirname(__FILE__) + '/xd_receiver.html', File.dirname(__FILE__) + '/../../../public/xd_receiver.html'
+FileUtils.copy(File.dirname(__FILE__) + '/xd_receiver.html', File.dirname(__FILE__) + '/../../../public/xd_receiver.html')
